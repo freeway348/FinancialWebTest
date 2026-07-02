@@ -1,0 +1,1 @@
+[32mINFO    [0m root:test_06_credit_review.py:34 额度审核结果：通过

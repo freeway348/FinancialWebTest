@@ -1,0 +1,1 @@
+[32mINFO    [0m root:test_02_register.py:11 注册结果：

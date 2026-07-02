@@ -1,0 +1,45 @@
+[31m[1mERROR   [0m root:base.py:30 元素定位超时，定位信息：('id', 'keywords')，错误详情：Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=148.0.7778.216)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6f87da8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff6f87da950+14eb0]
+	chromedriver!(No symbol) [0x7ff6f854d6ed]
+	chromedriver!(No symbol) [0x7ff6f8523dc2]
+	chromedriver!(No symbol) [0x7ff6f85d6f16]
+	chromedriver!(No symbol) [0x7ff6f85f4122]
+	chromedriver!(No symbol) [0x7ff6f85990e8]
+	chromedriver!(No symbol) [0x7ff6f8599fc3]
+	chromedriver!GetHandleVerifier [0x7ff6f8af0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff6f8aea715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff6f8b0c012+346572]
+	chromedriver!GetHandleVerifier [0x7ff6f87f7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff6f880087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff6f87e40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff6f87e4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff6f87c8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffe273ee957+17]
+	ntdll!RtlUserThreadStart [0x7ffe2858427c+2c]
+
+[31m[1mERROR   [0m root:test_01_login_parametrize.py:38 测试执行过程中发生异常: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=148.0.7778.216)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6f87da8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff6f87da950+14eb0]
+	chromedriver!(No symbol) [0x7ff6f854d6ed]
+	chromedriver!(No symbol) [0x7ff6f8523dc2]
+	chromedriver!(No symbol) [0x7ff6f85d6f16]
+	chromedriver!(No symbol) [0x7ff6f85f4122]
+	chromedriver!(No symbol) [0x7ff6f85990e8]
+	chromedriver!(No symbol) [0x7ff6f8599fc3]
+	chromedriver!GetHandleVerifier [0x7ff6f8af0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff6f8aea715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff6f8b0c012+346572]
+	chromedriver!GetHandleVerifier [0x7ff6f87f7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff6f880087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff6f87e40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff6f87e4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff6f87c8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffe273ee957+17]
+	ntdll!RtlUserThreadStart [0x7ffe2858427c+2c]

@@ -1,0 +1,1 @@
+INFO     root:test_07_loan.py:33 借款结果：测试借款标题

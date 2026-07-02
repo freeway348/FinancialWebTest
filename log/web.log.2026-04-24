@@ -1,0 +1,33 @@
+2026-04-24 20:52:01,100 INFO [test_01_login.py(test_02_login_fail_pwd_error:38)] - 登录结果:密码错误1次,达到3次将锁定账户
+2026-04-24 21:09:04,356 ERROR [base.py(fd_element:30)] - 元素定位超时，定位信息：('css selector', 'li.light-blue > a > span')，错误详情：Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=147.0.7727.117)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff62576a8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff62576a950+14eb0]
+	chromedriver!(No symbol) [0x7ff6254dd6ed]
+	chromedriver!(No symbol) [0x7ff6254c8db0]
+	chromedriver!(No symbol) [0x7ff6254c8d0c]
+	chromedriver!(No symbol) [0x7ff6254c7569]
+	chromedriver!(No symbol) [0x7ff6254c811f]
+	chromedriver!(No symbol) [0x7ff6254e2ff6]
+	chromedriver!(No symbol) [0x7ff6254e3b3b]
+	chromedriver!(No symbol) [0x7ff6254e8795]
+	chromedriver!(No symbol) [0x7ff6254e885f]
+	chromedriver!(No symbol) [0x7ff62553647e]
+	chromedriver!(No symbol) [0x7ff62553700c]
+	chromedriver!(No symbol) [0x7ff625587cb7]
+	chromedriver!(No symbol) [0x7ff62558483b]
+	chromedriver!(No symbol) [0x7ff6255290e8]
+	chromedriver!(No symbol) [0x7ff625529fc3]
+	chromedriver!GetHandleVerifier [0x7ff625a80149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff625a7a715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff625a9c012+346572]
+	chromedriver!GetHandleVerifier [0x7ff625787cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff62579087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff6257740e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff625774296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff625758737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffb2408e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffb24cac3fc+2c]
+

@@ -1,0 +1,253 @@
+2026-06-01 20:00:27,603 INFO [test_01_login.py(test_01_login_success:11)] - 登录结果:13800001001
+2026-06-01 20:00:38,120 INFO [test_01_login.py(test_02_login_fail_pwd_error:18)] - 登录结果:密码错误1次,达到3次将锁定账户
+2026-06-01 20:00:57,344 ERROR [base.py(fd_element:30)] - 元素定位超时，定位信息：('css selector', '#err > span')，错误详情：Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6f87da8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff6f87da950+14eb0]
+	chromedriver!(No symbol) [0x7ff6f854d6ed]
+	chromedriver!(No symbol) [0x7ff6f85a6cfe]
+	chromedriver!(No symbol) [0x7ff6f85a700c]
+	chromedriver!(No symbol) [0x7ff6f85f7cb7]
+	chromedriver!(No symbol) [0x7ff6f85f483b]
+	chromedriver!(No symbol) [0x7ff6f85990e8]
+	chromedriver!(No symbol) [0x7ff6f8599fc3]
+	chromedriver!GetHandleVerifier [0x7ff6f8af0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff6f8aea715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff6f8b0c012+346572]
+	chromedriver!GetHandleVerifier [0x7ff6f87f7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff6f880087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff6f87e40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff6f87e4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff6f87c8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffe273ee957+17]
+	ntdll!RtlUserThreadStart [0x7ffe2858427c+2c]
+
+2026-06-01 20:01:15,796 INFO [test_01_login.py(test_04_login_fail_pwd_none:32)] - 登录结果:用户名或密码不能为空
+2026-06-01 20:01:59,785 ERROR [base.py(fd_element:30)] - 元素定位超时，定位信息：('css selector', '#err > span')，错误详情：Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6f87da8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff6f87da950+14eb0]
+	chromedriver!(No symbol) [0x7ff6f854d6ed]
+	chromedriver!(No symbol) [0x7ff6f85a6cfe]
+	chromedriver!(No symbol) [0x7ff6f85a700c]
+	chromedriver!(No symbol) [0x7ff6f85f7cb7]
+	chromedriver!(No symbol) [0x7ff6f85f483b]
+	chromedriver!(No symbol) [0x7ff6f85990e8]
+	chromedriver!(No symbol) [0x7ff6f8599fc3]
+	chromedriver!GetHandleVerifier [0x7ff6f8af0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff6f8aea715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff6f8b0c012+346572]
+	chromedriver!GetHandleVerifier [0x7ff6f87f7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff6f880087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff6f87e40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff6f87e4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff6f87c8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffe273ee957+17]
+	ntdll!RtlUserThreadStart [0x7ffe2858427c+2c]
+
+2026-06-01 20:01:59,785 ERROR [test_01_login_ex_fixture.py(test_01_login:26)] - 测试执行过程中发生异常: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6f87da8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff6f87da950+14eb0]
+	chromedriver!(No symbol) [0x7ff6f854d6ed]
+	chromedriver!(No symbol) [0x7ff6f85a6cfe]
+	chromedriver!(No symbol) [0x7ff6f85a700c]
+	chromedriver!(No symbol) [0x7ff6f85f7cb7]
+	chromedriver!(No symbol) [0x7ff6f85f483b]
+	chromedriver!(No symbol) [0x7ff6f85990e8]
+	chromedriver!(No symbol) [0x7ff6f8599fc3]
+	chromedriver!GetHandleVerifier [0x7ff6f8af0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff6f8aea715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff6f8b0c012+346572]
+	chromedriver!GetHandleVerifier [0x7ff6f87f7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff6f880087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff6f87e40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff6f87e4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff6f87c8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffe273ee957+17]
+	ntdll!RtlUserThreadStart [0x7ffe2858427c+2c]
+
+2026-06-01 20:02:28,779 INFO [test_01_login_fixture.py(test_01_login_success:14)] - 登录结果:13800001001
+2026-06-01 20:02:37,396 INFO [test_01_login_fixture.py(test_02_login_fail_pwd_error:24)] - 登录结果:密码错误1次,达到3次将锁定账户
+2026-06-01 20:02:54,355 WARNING [connectionpool.py(urlopen:870)] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002044EC6B580>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session
+2026-06-01 20:02:58,411 WARNING [connectionpool.py(urlopen:870)] - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002044EC6B730>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session
+2026-06-01 20:03:02,478 WARNING [connectionpool.py(urlopen:870)] - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002044EC6B910>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session
+2026-06-01 20:03:17,582 INFO [test_01_login_fixture.py(test_04_login_fail_pwd_none:52)] - 登录结果:用户名或密码不能为空
+2026-06-01 20:03:43,414 ERROR [base.py(fd_element:30)] - 元素定位超时，定位信息：('id', 'keywords')，错误详情：Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=148.0.7778.216)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6f87da8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff6f87da950+14eb0]
+	chromedriver!(No symbol) [0x7ff6f854d6ed]
+	chromedriver!(No symbol) [0x7ff6f8523dc2]
+	chromedriver!(No symbol) [0x7ff6f85d6f16]
+	chromedriver!(No symbol) [0x7ff6f85f4122]
+	chromedriver!(No symbol) [0x7ff6f85990e8]
+	chromedriver!(No symbol) [0x7ff6f8599fc3]
+	chromedriver!GetHandleVerifier [0x7ff6f8af0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff6f8aea715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff6f8b0c012+346572]
+	chromedriver!GetHandleVerifier [0x7ff6f87f7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff6f880087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff6f87e40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff6f87e4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff6f87c8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffe273ee957+17]
+	ntdll!RtlUserThreadStart [0x7ffe2858427c+2c]
+
+2026-06-01 20:03:43,414 ERROR [test_01_login_parametrize.py(test_01_login:38)] - 测试执行过程中发生异常: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=148.0.7778.216)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6f87da8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff6f87da950+14eb0]
+	chromedriver!(No symbol) [0x7ff6f854d6ed]
+	chromedriver!(No symbol) [0x7ff6f8523dc2]
+	chromedriver!(No symbol) [0x7ff6f85d6f16]
+	chromedriver!(No symbol) [0x7ff6f85f4122]
+	chromedriver!(No symbol) [0x7ff6f85990e8]
+	chromedriver!(No symbol) [0x7ff6f8599fc3]
+	chromedriver!GetHandleVerifier [0x7ff6f8af0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff6f8aea715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff6f8b0c012+346572]
+	chromedriver!GetHandleVerifier [0x7ff6f87f7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff6f880087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff6f87e40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff6f87e4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff6f87c8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffe273ee957+17]
+	ntdll!RtlUserThreadStart [0x7ffe2858427c+2c]
+
+2026-06-01 20:04:07,431 INFO [test_02_register.py(test_01_register_success:11)] - 注册结果：
+2026-06-01 20:04:16,306 INFO [test_02_register.py(test_02_register_fail_phone_exist:18)] - 注册结果：注册抢88现金
+2026-06-01 20:04:34,697 ERROR [base.py(fd_element:30)] - 元素定位超时，定位信息：('link text', '立即开通')，错误详情：Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6f87da8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff6f87da950+14eb0]
+	chromedriver!(No symbol) [0x7ff6f854d6ed]
+	chromedriver!(No symbol) [0x7ff6f85a6cfe]
+	chromedriver!(No symbol) [0x7ff6f85a700c]
+	chromedriver!(No symbol) [0x7ff6f85f7cb7]
+	chromedriver!(No symbol) [0x7ff6f85f483b]
+	chromedriver!(No symbol) [0x7ff6f85990e8]
+	chromedriver!(No symbol) [0x7ff6f8599fc3]
+	chromedriver!GetHandleVerifier [0x7ff6f8af0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff6f8aea715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff6f8b0c012+346572]
+	chromedriver!GetHandleVerifier [0x7ff6f87f7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff6f880087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff6f87e40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff6f87e4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff6f87c8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffe273ee957+17]
+	ntdll!RtlUserThreadStart [0x7ffe2858427c+2c]
+
+2026-06-01 20:04:47,618 ERROR [base.py(fd_element:30)] - 元素定位超时，定位信息：('xpath', "//em[text()='借款账户']")，错误详情：Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=148.0.7778.216)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6f87da8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff6f87da950+14eb0]
+	chromedriver!(No symbol) [0x7ff6f854d6ed]
+	chromedriver!(No symbol) [0x7ff6f8538db0]
+	chromedriver!(No symbol) [0x7ff6f8538d0c]
+	chromedriver!(No symbol) [0x7ff6f8537569]
+	chromedriver!(No symbol) [0x7ff6f853811f]
+	chromedriver!(No symbol) [0x7ff6f8552ff6]
+	chromedriver!(No symbol) [0x7ff6f8553b3b]
+	chromedriver!(No symbol) [0x7ff6f8558795]
+	chromedriver!(No symbol) [0x7ff6f855885f]
+	chromedriver!(No symbol) [0x7ff6f85a647e]
+	chromedriver!(No symbol) [0x7ff6f85a700c]
+	chromedriver!(No symbol) [0x7ff6f85f7cb7]
+	chromedriver!(No symbol) [0x7ff6f85f483b]
+	chromedriver!(No symbol) [0x7ff6f85990e8]
+	chromedriver!(No symbol) [0x7ff6f8599fc3]
+	chromedriver!GetHandleVerifier [0x7ff6f8af0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff6f8aea715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff6f8b0c012+346572]
+	chromedriver!GetHandleVerifier [0x7ff6f87f7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff6f880087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff6f87e40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff6f87e4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff6f87c8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffe273ee957+17]
+	ntdll!RtlUserThreadStart [0x7ffe2858427c+2c]
+
+2026-06-01 20:05:22,639 ERROR [base.py(fd_element:30)] - 元素定位超时，定位信息：('css selector', 'li.light-blue > a > span')，错误详情：Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6f87da8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff6f87da950+14eb0]
+	chromedriver!(No symbol) [0x7ff6f854d6ed]
+	chromedriver!(No symbol) [0x7ff6f85a6cfe]
+	chromedriver!(No symbol) [0x7ff6f85a700c]
+	chromedriver!(No symbol) [0x7ff6f85f7cb7]
+	chromedriver!(No symbol) [0x7ff6f85f483b]
+	chromedriver!(No symbol) [0x7ff6f85990e8]
+	chromedriver!(No symbol) [0x7ff6f8599fc3]
+	chromedriver!GetHandleVerifier [0x7ff6f8af0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff6f8aea715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff6f8b0c012+346572]
+	chromedriver!GetHandleVerifier [0x7ff6f87f7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff6f880087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff6f87e40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff6f87e4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff6f87c8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffe273ee957+17]
+	ntdll!RtlUserThreadStart [0x7ffe2858427c+2c]
+
+2026-06-01 20:05:28,783 ERROR [base.py(fd_element:30)] - 元素定位超时，定位信息：('link text', '借款管理')，错误详情：Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=148.0.7778.216)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6f87da8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff6f87da950+14eb0]
+	chromedriver!(No symbol) [0x7ff6f854d6ed]
+	chromedriver!(No symbol) [0x7ff6f8538db0]
+	chromedriver!(No symbol) [0x7ff6f8538d0c]
+	chromedriver!(No symbol) [0x7ff6f8537569]
+	chromedriver!(No symbol) [0x7ff6f853811f]
+	chromedriver!(No symbol) [0x7ff6f8552ff6]
+	chromedriver!(No symbol) [0x7ff6f8553b3b]
+	chromedriver!(No symbol) [0x7ff6f8558795]
+	chromedriver!(No symbol) [0x7ff6f855885f]
+	chromedriver!(No symbol) [0x7ff6f85a647e]
+	chromedriver!(No symbol) [0x7ff6f85a700c]
+	chromedriver!(No symbol) [0x7ff6f85f7cb7]
+	chromedriver!(No symbol) [0x7ff6f85f483b]
+	chromedriver!(No symbol) [0x7ff6f85990e8]
+	chromedriver!(No symbol) [0x7ff6f8599fc3]
+	chromedriver!GetHandleVerifier [0x7ff6f8af0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff6f8aea715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff6f8b0c012+346572]
+	chromedriver!GetHandleVerifier [0x7ff6f87f7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff6f880087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff6f87e40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff6f87e4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff6f87c8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffe273ee957+17]
+	ntdll!RtlUserThreadStart [0x7ffe2858427c+2c]
+
+2026-06-01 20:05:47,243 ERROR [base.py(fd_element:30)] - 元素定位超时，定位信息：('css selector', 'li.ui-nav-item:nth-child(3) > a:nth-child(1)')，错误详情：Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6f87da8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff6f87da950+14eb0]
+	chromedriver!(No symbol) [0x7ff6f854d6ed]
+	chromedriver!(No symbol) [0x7ff6f85a6cfe]
+	chromedriver!(No symbol) [0x7ff6f85a700c]
+	chromedriver!(No symbol) [0x7ff6f85f7cb7]
+	chromedriver!(No symbol) [0x7ff6f85f483b]
+	chromedriver!(No symbol) [0x7ff6f85990e8]
+	chromedriver!(No symbol) [0x7ff6f8599fc3]
+	chromedriver!GetHandleVerifier [0x7ff6f8af0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff6f8aea715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff6f8b0c012+346572]
+	chromedriver!GetHandleVerifier [0x7ff6f87f7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff6f880087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff6f87e40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff6f87e4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff6f87c8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffe273ee957+17]
+	ntdll!RtlUserThreadStart [0x7ffe2858427c+2c]
+
